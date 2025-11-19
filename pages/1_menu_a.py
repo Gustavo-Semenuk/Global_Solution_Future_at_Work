@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Menu A", layout="wide")
+st.set_page_config(page_title="Peoples", layout="wide")
 
 # ---- CSS padrão ----
 st.markdown("""
@@ -11,13 +11,19 @@ main, .block-container { background-color: #000000 !important; }
 </style>
 """, unsafe_allow_html=True)
 
-st.title("💼 Menu A")
+st.title("Peoples")
 
 abas = st.tabs(["🏠 Home", "ℹ️ Sobre nós", "💻 Soluções", "🗂 Tech review"])
 
 with abas[0]:
     st.header("Home do Menu A")
     st.write("Bem-vindo ao Menu A!")
+    st.title("Formulario")
+    form = st.form("my_form")
+    form.slider("Inside the form")
+    st.slider("Outside the form")
+
+    form.form_submit_button("Submit")
 
 with abas[1]:
     st.header("Sobre nós")

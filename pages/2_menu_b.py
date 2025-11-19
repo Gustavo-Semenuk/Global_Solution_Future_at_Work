@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Menu B", layout="wide")
+st.set_page_config(page_title="Orgãos Públicos", layout="wide")
 
 st.markdown("""
 <style>
@@ -10,7 +10,7 @@ main, .block-container { background-color: #000000 !important; }
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📊 Menu B")
+st.title("Orgãos Públicos")
 
 abas = st.tabs(["Dashboard", "Relatórios", "Exportar"])
 

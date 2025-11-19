@@ -54,7 +54,7 @@ col1, col2, col3 = st.columns([1, 1, 1])
 
 with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    if st.button("Humanos", use_container_width=True):
+    if st.button("Peoples", use_container_width=True):
         st.switch_page("pages/1_menu_a.py")
 
 with col2:
