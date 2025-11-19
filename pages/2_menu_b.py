@@ -13,7 +13,7 @@ main, .block-container { background-color: #000000 !important; }
 
 st.title("Orgãos Públicos")
 
-abas = st.tabs(["Dashboard", "Relatórios"])
+abas = st.tabs(["Dashboard"])
 
 with abas[0]:
     st.header("Dashboard - Análise por UF")
