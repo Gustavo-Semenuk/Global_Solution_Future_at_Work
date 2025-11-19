@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Empresas", layout="wide")
 
@@ -15,13 +16,11 @@ st.title("Empresas")
 abas = st.tabs(["Mapa", "Coordenadas", "Geolocalização"])
 
 with abas[0]:
-    st.subheader("Mapa")
-    st.write("Aqui vai o mapa futuramente.")
 
-with abas[1]:
-    st.subheader("Coordenadas")
-    st.write("Consulta de lat/long.")
+    st.header("Dashboard - Análise por UF")
+    st.write("Gráficos e métricas do projeto aqui.")
 
-with abas[2]:
-    st.subheader("Geolocalização")
-    st.write("Integrações de endereço.")
+    url = "https://app.powerbi.com/view?r=eyJrIjoiYzJhMTgzNTItNDc2ZC00YWFjLWE3MjgtYWQyODI4NzlhYWRmIiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
+
+    components.iframe(url, width=1500, height=800)
+

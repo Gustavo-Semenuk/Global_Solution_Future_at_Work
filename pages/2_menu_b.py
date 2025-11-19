@@ -23,6 +23,3 @@ with abas[0]:
 
     components.iframe(url, width=1500, height=800)
 
-with abas[1]:
-    st.subheader("Relatórios")
-    st.write("Conteúdo de relatórios.")
