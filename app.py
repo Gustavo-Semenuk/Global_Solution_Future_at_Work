@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, p, span, label, div, .stMarkdown, .stButton>button {
 """, unsafe_allow_html=True)
 
 # ---- Logo (coloque sua imagem) ----
-st.image("D:/Faculdade/Global_Solution_Future_at_Work/imagens/human_centric.png")
+st.image("Global_Solution_Future_at_Work/imagens/human_centric.png")
 
 st.divider()
 st.write("")
