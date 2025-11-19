@@ -13,7 +13,7 @@ main, .block-container { background-color: #000000 !important; }
 
 st.title("Empresas")
 
-abas = st.tabs(["Mapa", "Coordenadas", "Geolocalização"])
+abas = st.tabs(["Dados dos candidatos"])
 
 with abas[0]:
 
