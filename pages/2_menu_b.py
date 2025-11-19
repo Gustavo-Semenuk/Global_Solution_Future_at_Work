@@ -19,7 +19,7 @@ with abas[0]:
     st.header("Dashboard - Análise por UF")
     st.write("Gráficos e métricas do projeto aqui.")
 
-    url = "https://app.powerbi.com/view?r=eyJrIjoiYWE5MzgwYjgtZWI3Yi00MDQ5LWE3MTQtYjAyZTllNGYzNGJjIiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
+    url = "https://app.powerbi.com/view?r=eyJrIjoiYzJhMTgzNTItNDc2ZC00YWFjLWE3MjgtYWQyODI4NzlhYWRmIiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
 
     components.iframe(url, width=1500, height=800)
 
