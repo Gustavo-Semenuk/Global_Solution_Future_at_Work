@@ -180,11 +180,11 @@ with abas[1]:
         st.success("🎉 Parabéns! Você desbloqueou os vídeos educativos 👇")
 
         videos = [
-            ("Introdução à Computação", "https://www.youtube.com/embed/HD13eq_Pmp8"),
-            ("Como usar o Google Drive", "https://www.youtube.com/embed/qE7MAfIoB1I"),
-            ("Aprenda Lógica de Programação", "https://www.youtube.com/embed/mc3TKp2XzhI"),
-            ("Como usar o Excel Básico", "https://www.youtube.com/embed/mO5DUjMZJx8"),
-            ("Segurança digital para iniciantes", "https://www.youtube.com/embed/uF0wzYLpQos"),
+            ("Guia de Estudos", "https://www.youtube.com/watch?v=eCLthWcwC60&list=PLHz_AreHm4dmYmOu9gaqEirP0jnRKXyQo"),
+            ("Entrando no mercado de TI", "https://www.youtube.com/watch?v=KwFrvsnxPW0&list=PLHz_AreHm4dl2W--y71fvviSANuFVTkHG"),
+            ("Aprenda Lógica de Programação", "https://www.youtube.com/watch?v=WdaWoxTiWnU&list=PLpdAy0tYrnKzIOm2Mh4jhQ37jw0fmt_wR"),
+            ("Fundamentos do SQL", "https://www.youtube.com/watch?v=ncgEQBONI_w&list=PLpdAy0tYrnKw_F8v6kkEXTeyE33Navv-K"),
+            ("Fundamentos Python", "https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6"),
         ]
 
         cols = st.columns(2)
